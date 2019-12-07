@@ -1,0 +1,109 @@
+/****************************************************************/
+body{
+	margin: 0;
+	text-align: center;
+	background-color: #eafbea;
+	line-height: 1.8;
+	font-weight: 600;
+}
+footer{
+	text-align: center;
+	background-color: #96d1c7;
+	padding: 40px;
+}
+hr{
+	border-style: none;
+	border-top-style:dotted;
+	border-width: 5px;
+	border-color:grey;
+	width: 10%;
+}
+h1{
+	color: #66BFBF;
+	font-family: 'Kaushan Script', cursive;
+}
+h2{
+	color: #090057;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+	color: #57007e;
+}
+a{
+	color: #9852f9;
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+}
+span{
+	text-decoration: underline;
+	text-decoration-color: #66BFBF;
+}
+ul{
+	text-align: left;
+	width: 50%;
+	margin:0 auto 0 auto;
+}
+p{
+	font-family: 'Handlee', cursive;
+}
+/**************************Class tag*****************************/
+.top{
+	
+	background-color: #fcf5b0;
+}
+.middle{
+	text-align: left;
+	width:50%;
+	margin: 50px auto 50px auto;
+}
+#bottom{
+	width: 50%;
+	margin:0 auto 0 auto;
+}
+.myself{
+	width: 15%;
+	border-radius: 50%;
+}
+/************************ID Tag**********************************/
+#head{
+	color: #66BFBF;
+}
+.button{
+	margin-bottom: 40px;
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #BFCEE4;
+   font-family: Arial;
+   font-size: 10px;
+   font-weight: 100;
+   padding: 10px;
+   box-shadow: 1px 1px 20px 0px #000000;
+   -webkit-box-shadow: 1px 1px 20px 0px #000000;
+   -moz-box-shadow: 1px 1px 20px 0px #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.button:hover {
+   border: solid #9CD0C8 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
